@@ -1,0 +1,60 @@
+/* style.css */
+
+/* Pealkirja stiil */
+h1 {
+    color: #336699; /* Muuda värv vastavalt soovile (kasuta värvi koodi või nime) */
+    font-size: 2em; /* Muuda fondi suurust vastavalt soovile */
+    font-family: 'Arial', sans-serif; /* Muuda fonti vastavalt soovile */
+    /* Lisa muud stiilielemendid vastavalt soovile */
+
+    /* style.css */
+
+p.p1 {margin: 0.0px 0.0px 16.1px 0.0px; font: 24.0px Times; color: #000000; -webkit-text-stroke: #000000}
+p.p2 {margin: 0.0px 0.0px 12.0px 0.0px; font: 18.0px Times; color: #000000; -webkit-text-stroke: #000000}
+span.s1 {font-kerning: none}
+
+}
+
+/* Teksti stiil */
+p {
+    font-size: 16px;
+    color: #333;
+    line-height: 1.5;
+    text-align: justify; /* Tekst joondatud mõlemale poolele */
+}
+
+/* Pildi stiil */
+img {
+    border: 2px solid #ddd; /* Raam pildi ümber */
+    border-radius: 8px; /* Raami nurgad ümardatud */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Vari */
+    max-width: 100%; /* Tagamaks, et pilt ei ole laiem kui tema konteiner */
+    height: auto; /* Säilitab pildi suhte */
+}
+
+
+/* Tabeli stiil */
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-bottom: 20px;
+}
+
+th, td {
+    border: 1px solid #ddd;
+    padding: 8px;
+    text-align: left;
+}
+
+th {
+    background-color: #f2f2f2; /* Päise taustavärv */
+    font-weight: bold; /* Paksem kiri päises */
+}
+
+/* Lehe taustavärv */
+body {
+    background-color: #f4f4f4; /* Värv kui taustapilti ei kasutata */
+    background-image: url('linn.jpg'); /* Lisa taustapilti URL vastavalt soovile */
+    background-size: cover; /* Kohanda taustapildi suurust */
+    background-repeat: no-repeat; /* Ära kordu taustapilti */
+}
